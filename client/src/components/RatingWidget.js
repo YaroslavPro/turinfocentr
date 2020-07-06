@@ -54,7 +54,7 @@ export const RatingWidget = ({ service, rated }) => {
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
             onClick={handleClick}
-            data-tooltip={'ваша оценка 5'}
+            data-tooltip={'ваша оценка'}
         >
             <span className="showplace-rating-star"
                 data-rating={point}
