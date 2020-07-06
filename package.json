@@ -1,0 +1,31 @@
+{
+  "name": "turinfocentr",
+  "version": "1.0.0",
+  "description": "Tourist Information Portal",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Yaroslav Pro <turinfocentr.ru@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.13",
+    "nodemailer": "^6.4.10",
+    "react-phone-input-2": "^2.13.5"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3"
+  }
+}
