@@ -11,12 +11,12 @@ export const initialState = {
         rated: new Map(Object.entries(JSON.parse(localStorage.getItem('rated')) || {}))
     },
     user: {
-        email: 'turinfocentr@yandex.ru',
-        phone: '(996) 922-32-48',
-        client: 'Ярослав',
-        company: 'ТурИнфоЦен..тр',
-        comment: 'нет комментар..иев',
-        subscription: true
+        email: '',
+        phone: '',
+        client: '',
+        company: '',
+        comment: '',
+        subscription: false
     }
 };
 
